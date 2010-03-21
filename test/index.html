@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>Testing fingerprint.js</title>
+    <script type="text/javascript" src="../js/fingerprint.js"></script>
+  </head>
+  <body>
+    <h1>Testing fingerprint.js</h1>
+    <div id="info">Just testing the output for now</div>
+    <div id="result">
+      <script type="text/javascript">
+              document.write('<dl><dt>String</dt><dd>' + fingerprint.str() + '</dd>');
+              document.write('<dt>Md5</dt><dd>' + fingerprint.md5() + '</dd></dl>');
+      </script>
+    </div>
+  </body>
+</html>

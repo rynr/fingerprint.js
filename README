@@ -20,3 +20,19 @@ I searched for a Fingerprint-Script to identify any brower without the need of
 Cookies. I did not really find any, so i started this Project. I'd love people
 to add functions for Non-Linux-Browsers, as i have none of these Systems to
 check how they work.
+
+--------------------------------------------------------------------------------
+
+DESCRIPTION
+
+  This JavaScript-Library tries to identify every Browser with a unique
+  Fingerprint. To do this, it will detect different browsers and extract
+  specific Informations like Plugins & Versions.
+  Currently, there's not much functionality, only the UserAgent is used to
+  generate the fingerprint.
+
+USAGE
+
+  fingerprint.str() // => 'Mozilla/5.0 (X11; U; Linux i686; ...'
+  fingerprint.md5() // => '6b8b43bd46578b97b656dfdc2d64b337'
+
