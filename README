@@ -28,8 +28,9 @@ DESCRIPTION
   This JavaScript-Library tries to identify every Browser with a unique
   Fingerprint. To do this, it will detect different browsers and extract
   specific Informations like Plugins & Versions.
-  Currently, there's not much functionality, only the UserAgent is used to
-  generate the fingerprint.
+  Currently, there's not much functionality, only the UserAgent and some
+  Plugin-data is used to generate the fingerprint, there's much that can be
+  improoved.
 
 USAGE
 
